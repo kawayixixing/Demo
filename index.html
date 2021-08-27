@@ -2,9 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Freheit blog</title>
   </head>
   <body>
     <h1>Hello World!</h1>
+    {% if page.show_sidebar %}
+       <div class="sidebar">
+        sidebar content
+       </div>
+    {% endif %}
   </body>
 </html>
