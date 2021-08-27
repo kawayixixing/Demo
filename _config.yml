@@ -1,7 +1,1 @@
 theme: jekyll-theme-minimal
-
-{% if page.show_sidebar %}
-  <div class="sidebar">
-    sidebar content
-  </div>
-{% endif %}
